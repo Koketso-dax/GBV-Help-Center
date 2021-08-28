@@ -1,8 +1,8 @@
 import "./App.css";
-import Forum from "./Forum";
-import Header from "./Header";
-import Login from "./Login";
-import SchedulePrivate from "./SchedulePrivate";
+import Forum from "./pages/Forum";
+import Header from "./pages/Header";
+import Login from "./pages/Login";
+import SchedulePrivate from "./pages/SchedulePrivate";
 
 function App() {
   const user = "brian";

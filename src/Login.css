@@ -15,10 +15,16 @@
   font-weight: bolder;
 }
 
-.login > button {
+.login__button {
+  font-size: larger;
   border: none;
   padding: 10px 150px;
   margin: 5rem 0;
   background-color: black;
   color: white;
+  cursor: pointer;
+}
+
+.login > a:hover {
+  text-decoration: underline;
 }

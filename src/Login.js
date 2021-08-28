@@ -15,7 +15,10 @@ function Login() {
   return (
     <div className="login">
       <div className="logo">GBV Community Login</div>
-      <button>Login</button>
+      <form action="submit">
+        <button className="login__button">Login</button>
+      </form>
+
       <a href="/">Sign up for free</a>
     </div>
   );

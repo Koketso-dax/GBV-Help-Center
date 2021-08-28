@@ -5,18 +5,18 @@ import "./Login.css";
 function Login() {
   const signIn = () => {
     // sign in via firebase
-     
-   //  auth
-   //    .signInWithPopup(provider)
-   //    .then((result) => {
-   //      console.log(result);
-   //    })
-   //    .catch((error) => alert(error.message));
+    //  auth
+    //    .signInWithPopup(provider)
+    //    .then((result) => {
+    //      console.log(result);
+    //    })
+    //    .catch((error) => alert(error.message));
   };
   return (
     <div className="login">
-      <h1>GBV Community Login</h1>
+      <div className="logo">GBV Community Login</div>
       <button>Login</button>
+      <a href="/">Sign up for free</a>
     </div>
   );
 }

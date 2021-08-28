@@ -1,0 +1,22 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+  max-width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/blue-snow.png);
+}
+
+.logo {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.login > button {
+  border: none;
+  padding: 10px 150px;
+  margin: 5rem 0;
+}

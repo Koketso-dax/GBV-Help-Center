@@ -14,13 +14,10 @@ function Login() {
   };
   return (
     <div className="login">
-      <div className="logo">GBV Community Login</div>
+      <div className="login__logo">GBV Community Login</div>
       <form action="submit">
         <button className="login__button">Login</button>
-      </form>
-
-      <a href="/">Sign up for free</a>
-    </div>
+      <a href="/" onClick={signIn}>Sign up for free</a>
   );
 }
 

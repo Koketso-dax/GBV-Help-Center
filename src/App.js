@@ -1,9 +1,11 @@
 import "./App.css";
 import Forum from "./Forum";
+import Header from "./Header";
 import Login from "./Login";
+import SchedulePrivate from "./SchedulePrivate";
 
 function App() {
-  const user = null;
+  const user = "brian";
 
   return (
     <div className="app">
@@ -11,6 +13,7 @@ function App() {
         <Login />
       ) : (
         <>
+          <Header />
           <Forum />
         </>
       )}

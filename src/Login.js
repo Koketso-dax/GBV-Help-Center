@@ -11,13 +11,15 @@ function Login() {
     //      console.log(result);
     //    })
     //    .catch((error) => alert(error.message));
+    console.log("Sign in by popup");
   };
   return (
     <div className="login">
       <div className="login__logo">GBV Community Login</div>
-      <form action="submit">
-        <button className="login__button">Login</button>
-      <a href="/" onClick={signIn}>Sign up for free</a>
+
+      <button className="login__button">Login</button>
+      <button onClick={signIn}> Sign up for free</button>
+    </div>
   );
 }
 

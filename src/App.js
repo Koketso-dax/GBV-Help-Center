@@ -1,11 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Forum from "./Forum";
+import Login from "./Login";
 
 function App() {
   const user = null;
 
   return (
-    <div className="App">
+    <div className="app">
       {!user ? (
         <Login />
       ) : (

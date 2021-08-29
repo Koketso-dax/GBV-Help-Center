@@ -1,12 +1,12 @@
 import React from "react";
 import "./Forum.css";
-import Card from "../components/postCard";
+import Post from "../components/Post"
+
 
 function Forum() {
    return <div className="forum">
 
-     <Card/>
-     
+    <Post/>
   </div>;
 }
 
